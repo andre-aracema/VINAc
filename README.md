@@ -82,11 +82,6 @@ Os seguintes principais algoritmos foram implementados como parte central do pro
 - Sobrescrita dos dados do diretório : na implementação dos algoritmos de inserção, os offsets dos membros não estavam sendo corretamente atualizadas. Resolvi com o desenvolvimento de uma função auxiliar ('fix_member_offset').
 
 
-### Bugs Conhecidos:
-
-- Primeiro membro vazio (sem conteúdo) a ser inserido em um archive vazio : ao sobrescrever um membro com conteúdo para sem conteúdo, não acontece nenhum tipo de erro, nem mesmo em outras funções após ele ser atualizado, move, list, extrai, todas funcionam, menos a remoção. E ao inserir, pela primeira vez, um membro em um archive vazio, se esse membro for vazio, ele desencadeia problemas.
-- Inserindo novo membro vazio : ao contrário de quando é o primeiro a ser inserido, se o archive não estiver sem membros, o membro vazio não é inserido, somente dá erro.
-
 ## Autor:
 André Akira A Abe Aracema <br>
 Estudante de Ciência da Computação - UFPR <br>
