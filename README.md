@@ -2,6 +2,8 @@
 
 VINAc é um programa arquivador com suporte a compressão, ou seja, permite armazenar e organizar arquivos com ou sem compressão. O programa suporta inserção, remoção, extração, listagem e movimentação de arquivos dentro de um archive '.vc'.
 
+Este projeto foi realizado com fins acadêmicos, como parte da disciplina de Programação 2 da Universidade Federal do Paraná (UFPR).
+
 ## Descrição das Operações
 
 O programa deve ser executado da seguinte maneira:
