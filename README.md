@@ -89,5 +89,6 @@ Os seguintes principais algoritmos foram implementados como parte central do pro
 
 ## Autor:
 André Akira A Abe Aracema <br>
-Estudante de Ciência da Computação - UFPR
+Estudante de Ciência da Computação - UFPR <br>
+Data: 11/05/2025
 
